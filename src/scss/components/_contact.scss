@@ -1,0 +1,12 @@
+.contact {
+    &__CTA {
+        text-transform: uppercase;
+        text-align: center;
+        background-color: var(--black);
+        color: var(--white);
+        padding: 1rem 3rem;
+        border-radius: 1rem;
+        width: fit-content;
+        margin-inline: auto;
+    }
+}

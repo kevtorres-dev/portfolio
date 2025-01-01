@@ -1,0 +1,18 @@
+.hero {
+    &__content {
+    }
+
+    &__text {
+        text-align: center;
+
+        h1 {
+            font-weight: 900;
+            font-size: var(--step-5);
+        }
+
+        p {
+            font-size: var(--step-1);
+            text-wrap: pretty;
+        }
+    }
+}

@@ -1,0 +1,9 @@
+.wrapper {
+    width: min(100% - 100px);
+    margin-inline: auto;
+    padding-block-start: 8.5rem;
+
+    @media (width < 40em) {
+        width: min(100% - 30px);
+    }
+}
