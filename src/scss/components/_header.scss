@@ -29,9 +29,8 @@
             text-align: center;
             background-color: var(--white);
             padding: 0;
-            height: 100%;
-            overflow-y: hidden;
-            overflow-x: hidden;
+            height: 100vh;
+            overflow: hidden;
             opacity: 0;
             pointer-events: none;
             transition: opacity 0.3s;
