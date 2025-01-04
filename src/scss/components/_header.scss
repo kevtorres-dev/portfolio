@@ -4,7 +4,6 @@
     left: 0;
     width: 100%;
     position: fixed;
-    border-bottom: 1px solid var(--black);
 
     &__nav {
         display: flex;
@@ -29,9 +28,9 @@
             text-align: center;
             background-color: var(--white);
             padding: 0;
-            height: 100vh;
+            height: 100%;
             overflow: hidden;
-            opacity: 0;
+            opacity: 0.5;
             pointer-events: none;
             transition: opacity 0.3s;
             z-index: 5;
@@ -73,7 +72,7 @@
 
 .close-menu {
     align-self: flex-end;
-    padding: 2rem;
+    padding: 1.8rem 2rem;
 }
 
 .m-padding {
